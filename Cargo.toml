@@ -15,11 +15,6 @@ exclude = ["/hooks/*", "/script/*", "/vendor/*", "/.travis.yml", "/Makefile", "/
 [profile.release]
 lto = true
 
-[lib]
-name = 'comrak'
-required-features = ["clap"]
-crate-type = ["cdylib", "rlib"]
-
 [[bin]]
 name = "comrak"
 required-features = ["clap"]
